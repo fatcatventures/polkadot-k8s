@@ -36,7 +36,7 @@ if [ ! -z "$PUBLIC_MULTIADDR" ]; then
 fi
 
 # sleep 1000
-eval /usr/bin/acala --validator --wasm-execution Compiled \
+eval /usr/local/bin/acala --validator --wasm-execution Compiled \
          --pruning=1000 \
          --prometheus-external \
           --execution native \
